@@ -23,4 +23,6 @@ after_bundle do
         }
     TXT
   end
+
+  rails_command  "db:create db:migrate"
 end
